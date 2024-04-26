@@ -27,12 +27,11 @@ class Conversation {
 
     System.out.println("Hi there!  What's on your mind?");
 
-    ArrayList<String> storeTranscript = new ArrayList<>(); 
+    ArrayList<String> storeTranscript = new ArrayList<>();
 
     for (int i = 0; i < roundnumber; i++) { // create a loop that repeats for that amount of times
       userinput = sc.nextLine();
-      storeTranscript.add(userinput);   
-
+      storeTranscript.add(userinput);
 
       String[] words = userinput.split(" ");
       // System.out.println(Arrays.toString(words));
@@ -66,7 +65,7 @@ class Conversation {
       if (canned == true) {
 
         System.out.println(normalResponse[count]);
-        storeTranscript.add(normalResponse[count]);   
+        storeTranscript.add(normalResponse[count]);
 
         count += 1;
         if (normalResponse.length == (count)) {
@@ -86,13 +85,8 @@ class Conversation {
     }
     sc.close();
 
-    for (int i=0; i < storeTranscript.size(); i++){
-      System.out.println("Print transcript--" + storeTranscript.get(i)); //print out transcript
-
-      //String cResponse = "";             
-  
-      //System.out.println(cResponse);  
-      //storeTranscript.append(cResponse);   
+    for (int i = 0; i < storeTranscript.size(); i++) {
+      System.out.println("Print transcript--" + storeTranscript.get(i)); // print out transcript
     }
 
   }

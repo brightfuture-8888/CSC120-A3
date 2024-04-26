@@ -16,7 +16,7 @@ Most learning experiences are more fun when shared, and programming is no except
 
 Find at **least two classmates** with whom you can discuss this assignment. We recommend doing this _before_ you start writing the program (but don't let this become a reason to delay getting an early start). You may fulfill this requirement at any point before submitting your ``readme.md``. Make sure you identify which classmates you talked with (since this is mutual, they should also identify you in their reflection!), and note any ways that your conversation changed your thinking about the assignment.
 
-Check the professors' office hours and the TA help session hours, and attend at least one. Record in your reflection which session(s) you attended, and any ways that it changed your thinking about the assignment.
+Check the professors' office hours and the TA help session hours, and attend at least one. Record in your reflection which session(s) you attended, and any ways that it changed your thinking about the assignment. 
 
 ## Program: `Conversation.java`
 For the main part of the assignment, you will write in Java a program similar to those you might have written in CSC 110 or other introductory course. The program you will write is a basic chatbot, a form originally popularized by the [program called Eliza](http://psych.fullerton.edu/mbirnbaum/psych101/eliza.htm). Your program will carry out a simple back-and-forth conversation with the user, like this:
